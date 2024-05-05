@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+.header{
+    max-width: 100%;
+    height: 112px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 83px;
+    box-sizing: border-box;
+}
+
+.phone__number{
+    color: #808080;
+    text-decoration: none;
+}
+
+.content{
+    max-width: 100%;
+    height: 625px;
+    background-color: #6b6b6b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title{
+    font-size: 96px;
+    font-family: Playfair Display SC;
+    text-align: center;
+    color: #fff;
+}
+
+.title2{
+    font-size: 18px;
+    text-align: center;
+    font-family: open sans;
+    color: #fff;
+}
+
+.maincontent{
+    display: flex;
+    gap: 31px;
+    padding: 102px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 381px;
+    height: 316px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.card__image{
+    width: 100%;
+    height: 246px;
+    object-fit: cover;
+}
+
+.card__name{
+    font-size: 24px;
+    border: 1px solid;
+    text-transform: uppercase;
+    color: #606060;
+    border-color: #808080;
+    margin: 5px 10px;
+    padding: 12px 0px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.footer{
+    height: 245px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+i{
+    color: #fff;
+    font-size: 29px;
+    margin: 10px;
+}
+
+.footer__text{
+    color: #fff;
+
+}
+
+ol{
+    list-style: none;
+    
+}
+
+.li{
+    display: flex;
+    justify-content: center;
+    padding: 23px 0px;
+}
