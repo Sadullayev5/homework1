@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    background-color: #F1F1F1;
+}
+
+.card{
+    max-width: 300px;
+    min-height: 200px;
+    background-color: #fff;
+    font-family: sans-serif;
+    border-radius: 5px;
+    overflow: hidden;
+    }
+
+
+.card__content{
+    padding: 15px;
+    color: #AFA09F;
+}
+
+.card__title{
+    padding: 10px;
+    font-size: 28px;
+}
+
+.card__link{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-color: cyan;  
+    padding: 10px;
+    margin: 10px;
+
+}
